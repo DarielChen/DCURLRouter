@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15143CAB1D66AB24006BD05D /* OneChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15143CAA1D66AB24006BD05D /* OneChildView.m */; };
+		15B071681D64414C00D9D571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071671D64414B00D9D571 /* main.m */; };
+		15B0716B1D64414C00D9D571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0716A1D64414C00D9D571 /* AppDelegate.m */; };
+		15B071711D64414C00D9D571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B0716F1D64414C00D9D571 /* Main.storyboard */; };
+		15B071731D64414C00D9D571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B071721D64414C00D9D571 /* Assets.xcassets */; };
+		15B071761D64414C00D9D571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B071741D64414C00D9D571 /* LaunchScreen.storyboard */; };
+		15B0717F1D6441CD00D9D571 /* DCURLRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15B0717E1D6441CD00D9D571 /* DCURLRouter.plist */; };
+		15B071861D6442DB00D9D571 /* DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071851D6442DB00D9D571 /* DCURLRouter.m */; };
+		15B071891D64432F00D9D571 /* DCURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071881D64432F00D9D571 /* DCURLNavgation.m */; };
+		15B0718C1D64437B00D9D571 /* UIViewController+DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0718B1D64437B00D9D571 /* UIViewController+DCURLRouter.m */; };
+		15B0718F1D6468AF00D9D571 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0718E1D6468AF00D9D571 /* OneViewController.m */; };
+		15B071921D6468C300D9D571 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071911D6468C300D9D571 /* TwoViewController.m */; };
+		15B071951D646CAB00D9D571 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071941D646CAB00D9D571 /* ThreeViewController.m */; };
+		15B071981D646CC000D9D571 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071971D646CC000D9D571 /* FourViewController.m */; };
+		15B0719B1D646CE600D9D571 /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0719A1D646CE600D9D571 /* FiveViewController.m */; };
+		15E021971D654A2E00B7A6BD /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15E021961D654A2E00B7A6BD /* WebViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15143CA91D66AB24006BD05D /* OneChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneChildView.h; sourceTree = "<group>"; };
+		15143CAA1D66AB24006BD05D /* OneChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneChildView.m; sourceTree = "<group>"; };
+		15B071631D64414B00D9D571 /* DCURLRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCURLRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		15B071671D64414B00D9D571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		15B071691D64414C00D9D571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		15B0716A1D64414C00D9D571 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		15B071701D64414C00D9D571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		15B071721D64414C00D9D571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		15B071751D64414C00D9D571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		15B071771D64414C00D9D571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15B0717E1D6441CD00D9D571 /* DCURLRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DCURLRouter.plist; sourceTree = "<group>"; };
+		15B071831D64429E00D9D571 /* DCSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSingleton.h; sourceTree = "<group>"; };
+		15B071841D6442DB00D9D571 /* DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLRouter.h; sourceTree = "<group>"; };
+		15B071851D6442DB00D9D571 /* DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLRouter.m; sourceTree = "<group>"; };
+		15B071871D64432F00D9D571 /* DCURLNavgation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLNavgation.h; sourceTree = "<group>"; };
+		15B071881D64432F00D9D571 /* DCURLNavgation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLNavgation.m; sourceTree = "<group>"; };
+		15B0718A1D64437B00D9D571 /* UIViewController+DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCURLRouter.h"; sourceTree = "<group>"; };
+		15B0718B1D64437B00D9D571 /* UIViewController+DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCURLRouter.m"; sourceTree = "<group>"; };
+		15B0718D1D6468AF00D9D571 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		15B0718E1D6468AF00D9D571 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		15B071901D6468C300D9D571 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		15B071911D6468C300D9D571 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		15B071931D646CAB00D9D571 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		15B071941D646CAB00D9D571 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		15B071961D646CC000D9D571 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		15B071971D646CC000D9D571 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		15B071991D646CE600D9D571 /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		15B0719A1D646CE600D9D571 /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		15E021951D654A2E00B7A6BD /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		15E021961D654A2E00B7A6BD /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15B071601D64414B00D9D571 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15B0715A1D64414B00D9D571 = {
+			isa = PBXGroup;
+			children = (
+				15B0717D1D64418C00D9D571 /* DCURLRouter */,
+				15B071651D64414B00D9D571 /* DCURLRouterDemo */,
+				15B071641D64414B00D9D571 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15B071641D64414B00D9D571 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15B071631D64414B00D9D571 /* DCURLRouterDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15B071651D64414B00D9D571 /* DCURLRouterDemo */ = {
+			isa = PBXGroup;
+			children = (
+				15B0716F1D64414C00D9D571 /* Main.storyboard */,
+				15B071691D64414C00D9D571 /* AppDelegate.h */,
+				15B0716A1D64414C00D9D571 /* AppDelegate.m */,
+				15B0718D1D6468AF00D9D571 /* OneViewController.h */,
+				15B0718E1D6468AF00D9D571 /* OneViewController.m */,
+				15B071901D6468C300D9D571 /* TwoViewController.h */,
+				15B071911D6468C300D9D571 /* TwoViewController.m */,
+				15B071931D646CAB00D9D571 /* ThreeViewController.h */,
+				15B071941D646CAB00D9D571 /* ThreeViewController.m */,
+				15B071961D646CC000D9D571 /* FourViewController.h */,
+				15B071971D646CC000D9D571 /* FourViewController.m */,
+				15B071991D646CE600D9D571 /* FiveViewController.h */,
+				15B0719A1D646CE600D9D571 /* FiveViewController.m */,
+				15E021951D654A2E00B7A6BD /* WebViewController.h */,
+				15E021961D654A2E00B7A6BD /* WebViewController.m */,
+				15143CA91D66AB24006BD05D /* OneChildView.h */,
+				15143CAA1D66AB24006BD05D /* OneChildView.m */,
+				15B071721D64414C00D9D571 /* Assets.xcassets */,
+				15B071741D64414C00D9D571 /* LaunchScreen.storyboard */,
+				15B071771D64414C00D9D571 /* Info.plist */,
+				15B071661D64414B00D9D571 /* Supporting Files */,
+			);
+			path = DCURLRouterDemo;
+			sourceTree = "<group>";
+		};
+		15B071661D64414B00D9D571 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				15B071671D64414B00D9D571 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		15B0717D1D64418C00D9D571 /* DCURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				15B071841D6442DB00D9D571 /* DCURLRouter.h */,
+				15B071851D6442DB00D9D571 /* DCURLRouter.m */,
+				15B071871D64432F00D9D571 /* DCURLNavgation.h */,
+				15B071881D64432F00D9D571 /* DCURLNavgation.m */,
+				15B0718A1D64437B00D9D571 /* UIViewController+DCURLRouter.h */,
+				15B0718B1D64437B00D9D571 /* UIViewController+DCURLRouter.m */,
+				15B071831D64429E00D9D571 /* DCSingleton.h */,
+				15B0717E1D6441CD00D9D571 /* DCURLRouter.plist */,
+			);
+			path = DCURLRouter;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		15B071621D64414B00D9D571 /* DCURLRouterDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15B0717A1D64414C00D9D571 /* Build configuration list for PBXNativeTarget "DCURLRouterDemo" */;
+			buildPhases = (
+				15B0715F1D64414B00D9D571 /* Sources */,
+				15B071601D64414B00D9D571 /* Frameworks */,
+				15B071611D64414B00D9D571 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DCURLRouterDemo;
+			productName = DCURLRouterDemo;
+			productReference = 15B071631D64414B00D9D571 /* DCURLRouterDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15B0715B1D64414B00D9D571 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DarielChen;
+				TargetAttributes = {
+					15B071621D64414B00D9D571 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 15B0715E1D64414B00D9D571 /* Build configuration list for PBXProject "DCURLRouterDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 15B0715A1D64414B00D9D571;
+			productRefGroup = 15B071641D64414B00D9D571 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15B071621D64414B00D9D571 /* DCURLRouterDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		15B071611D64414B00D9D571 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B071761D64414C00D9D571 /* LaunchScreen.storyboard in Resources */,
+				15B071731D64414C00D9D571 /* Assets.xcassets in Resources */,
+				15B0717F1D6441CD00D9D571 /* DCURLRouter.plist in Resources */,
+				15B071711D64414C00D9D571 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15B0715F1D64414B00D9D571 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15B071921D6468C300D9D571 /* TwoViewController.m in Sources */,
+				15B071891D64432F00D9D571 /* DCURLNavgation.m in Sources */,
+				15E021971D654A2E00B7A6BD /* WebViewController.m in Sources */,
+				15B0718C1D64437B00D9D571 /* UIViewController+DCURLRouter.m in Sources */,
+				15B071981D646CC000D9D571 /* FourViewController.m in Sources */,
+				15B0719B1D646CE600D9D571 /* FiveViewController.m in Sources */,
+				15143CAB1D66AB24006BD05D /* OneChildView.m in Sources */,
+				15B0716B1D64414C00D9D571 /* AppDelegate.m in Sources */,
+				15B0718F1D6468AF00D9D571 /* OneViewController.m in Sources */,
+				15B071681D64414C00D9D571 /* main.m in Sources */,
+				15B071861D6442DB00D9D571 /* DCURLRouter.m in Sources */,
+				15B071951D646CAB00D9D571 /* ThreeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		15B0716F1D64414C00D9D571 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B071701D64414C00D9D571 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		15B071741D64414C00D9D571 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				15B071751D64414C00D9D571 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		15B071781D64414C00D9D571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15B071791D64414C00D9D571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		15B0717B1D64414C00D9D571 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCURLRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.DarielChen.DCURLRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		15B0717C1D64414C00D9D571 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DCURLRouterDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.github.DarielChen.DCURLRouterDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15B0715E1D64414B00D9D571 /* Build configuration list for PBXProject "DCURLRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B071781D64414C00D9D571 /* Debug */,
+				15B071791D64414C00D9D571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15B0717A1D64414C00D9D571 /* Build configuration list for PBXNativeTarget "DCURLRouterDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15B0717B1D64414C00D9D571 /* Debug */,
+				15B0717C1D64414C00D9D571 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15B0715B1D64414B00D9D571 /* Project object */;
+}

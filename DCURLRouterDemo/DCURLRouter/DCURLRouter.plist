@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>http</key>
+	<string>WebViewController</string>
+	<key>https</key>
+	<string>WebViewController</string>
+	<key>dariel</key>
+	<dict>
+		<key>dariel://twoitem</key>
+		<string>TwoViewController</string>
+		<key>dariel://threeitem</key>
+		<string>ThreeViewController</string>
+		<key>dariel://fouritem</key>
+		<string>FourViewController</string>
+		<key>dariel://fiveitem</key>
+		<string>FiveViewController</string>
+	</dict>
+</dict>
+</plist>

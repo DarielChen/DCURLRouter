@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="PbJ-yY-QbH">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--One View Controller-->
+        <scene sceneID="nij-Sk-5i4">
+            <objects>
+                <viewController id="udy-zP-zJ9" customClass="OneViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="mew-N5-IqF"/>
+                        <viewControllerLayoutGuide type="bottom" id="dpp-St-gDj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="lZu-Fb-oqz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="eju-s4-ule"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kRv-6d-qMI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2079" y="-429"/>
+        </scene>
+        <!--ONEVC-->
+        <scene sceneID="jDV-ls-qb8">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PbJ-yY-QbH" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="ONEVC" image="ZHEditorSettingIconNormal" id="Kg8-rO-Dck"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ePT-re-bzO">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="udy-zP-zJ9" kind="relationship" relationship="rootViewController" id="mEI-hP-sUo"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ElD-gS-uFt" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1267" y="-429"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ZHEditorSettingIconNormal" width="19" height="19"/>
+    </resources>
+</document>
