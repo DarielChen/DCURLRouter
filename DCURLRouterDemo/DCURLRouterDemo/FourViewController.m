@@ -34,6 +34,7 @@
 //    [DCURLRouter pushURLString:@"dariel://fiveitem" animated:YES replace:NO];
 
 //    [DCURLRouter presentURLString:@"dariel://fiveitem" animated:YES];
+//    [DCURLRouter presentURLString:@"dariel://fiveitem" animated:YES completion:nil];
 
 }
 

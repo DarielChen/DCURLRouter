@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		15143CAB1D66AB24006BD05D /* OneChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15143CAA1D66AB24006BD05D /* OneChildView.m */; };
+		1526ABF01D6B316D0083C658 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526ABEE1D6B316D0083C658 /* XibViewController.m */; };
+		1526ABF11D6B316D0083C658 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1526ABEF1D6B316D0083C658 /* XibViewController.xib */; };
 		15B071681D64414C00D9D571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071671D64414B00D9D571 /* main.m */; };
 		15B0716B1D64414C00D9D571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0716A1D64414C00D9D571 /* AppDelegate.m */; };
 		15B071711D64414C00D9D571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B0716F1D64414C00D9D571 /* Main.storyboard */; };
@@ -28,6 +30,9 @@
 /* Begin PBXFileReference section */
 		15143CA91D66AB24006BD05D /* OneChildView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneChildView.h; sourceTree = "<group>"; };
 		15143CAA1D66AB24006BD05D /* OneChildView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneChildView.m; sourceTree = "<group>"; };
+		1526ABED1D6B316D0083C658 /* XibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibViewController.h; sourceTree = "<group>"; };
+		1526ABEE1D6B316D0083C658 /* XibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibViewController.m; sourceTree = "<group>"; };
+		1526ABEF1D6B316D0083C658 /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
 		15B071631D64414B00D9D571 /* DCURLRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCURLRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B071671D64414B00D9D571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15B071691D64414C00D9D571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -104,6 +109,9 @@
 				15B0719A1D646CE600D9D571 /* FiveViewController.m */,
 				15E021951D654A2E00B7A6BD /* WebViewController.h */,
 				15E021961D654A2E00B7A6BD /* WebViewController.m */,
+				1526ABED1D6B316D0083C658 /* XibViewController.h */,
+				1526ABEE1D6B316D0083C658 /* XibViewController.m */,
+				1526ABEF1D6B316D0083C658 /* XibViewController.xib */,
 				15143CA91D66AB24006BD05D /* OneChildView.h */,
 				15143CAA1D66AB24006BD05D /* OneChildView.m */,
 				15B071721D64414C00D9D571 /* Assets.xcassets */,
@@ -194,6 +202,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1526ABF11D6B316D0083C658 /* XibViewController.xib in Resources */,
 				15B071761D64414C00D9D571 /* LaunchScreen.storyboard in Resources */,
 				15B071731D64414C00D9D571 /* Assets.xcassets in Resources */,
 				15B0717F1D6441CD00D9D571 /* DCURLRouter.plist in Resources */,
@@ -210,6 +219,7 @@
 			files = (
 				15B071921D6468C300D9D571 /* TwoViewController.m in Sources */,
 				15B071891D64432F00D9D571 /* DCURLNavgation.m in Sources */,
+				1526ABF01D6B316D0083C658 /* XibViewController.m in Sources */,
 				15E021971D654A2E00B7A6BD /* WebViewController.m in Sources */,
 				15B0718C1D64437B00D9D571 /* UIViewController+DCURLRouter.m in Sources */,
 				15B071981D646CC000D9D571 /* FourViewController.m in Sources */,

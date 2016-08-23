@@ -9,8 +9,6 @@
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
-
-
 @interface UIViewController (DCURLRouter)
 
 /** 跳转后控制器能拿到的url */
@@ -22,15 +20,12 @@ NS_ASSUME_NONNULL_BEGIN
 /** 跳转后控制器能拿到的参数 */
 @property(nonatomic,strong) NSDictionary *params;
 
-
 // 根据参数创建控制器
 + (UIViewController *)initFromString:(NSString *)urlString fromConfig:(NSDictionary *)configDict;
 // 根据参数创建控制器
 + (UIViewController *)initFromString:(NSString *)urlString withQuery:(NSDictionary *)query fromConfig:(NSDictionary *)configDict;
 
 
-
 NS_ASSUME_NONNULL_END
-
 
 @end

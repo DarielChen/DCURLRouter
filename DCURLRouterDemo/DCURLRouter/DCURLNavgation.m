@@ -126,15 +126,18 @@ DCSingletonM(DCURLNavgation)
 + (void)dismissViewControllerWithTimes:(NSUInteger)times animated: (BOOL)flag completion: (void (^ __nullable)(void))completion {
     UIViewController *rootVC = [[DCURLNavgation sharedDCURLNavgation] currentViewController];
     
-    if (rootVC.presentedViewController) {
+    if (rootVC) {
         while (times > 0) {
             rootVC = rootVC.presentingViewController;
             times -= 1;
         }
         [rootVC dismissViewControllerAnimated:YES completion:completion];
-    }else {
+    }
+    
+    if (!rootVC.presentedViewController) {
         NSAssert(0, @"确定能dismiss掉这么多控制器?");
     }
+    
 }
 
 

@@ -41,12 +41,18 @@
     
     
 //    [DCURLRouter popViewControllerAnimated:YES];
-//    [DCURLRouter dismissViewControllerWithTimes:10 animated:YES completion:nil];
+//    [DCURLRouter dismissViewControllerWithTimes:5 animated:YES completion:nil];
+    
+//    [DCURLRouter dismissToRootViewControllerAnimated:YES completion:nil];
+    
+//    [DCURLRouter dismissToRootViewControllerAnimated:YES completion:nil];
+    
+//    [DCURLRouter dismissTwiceViewControllerAnimated:YES completion:nil];
     
     
 //    [DCURLRouter presentURLString:@"http://www.baidu.com" animated:YES];
     
-    [DCURLRouter pushURLString:@"https://www.baidu.com" animated:YES];
+//    [DCURLRouter pushURLString:@"https://www.baidu.com" animated:YES];
     
 }
 
