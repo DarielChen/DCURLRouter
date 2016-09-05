@@ -38,7 +38,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
 
-//    [DCURLRouter presentURLString:@"dariel://twoitem" animated:YES completion:nil];
+    [DCURLRouter presentURLString:@"dariel://twoitem" animated:YES completion:nil];
 
 //    [DCURLRouter dismissViewControllerWithTimes:1 animated:YES completion:nil];
 

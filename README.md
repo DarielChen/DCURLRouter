@@ -58,7 +58,7 @@
     // 给modal出来的控制器添加一个导航控制器
     [DCURLRouter presentURLString:@"dariel://threeitem" animated:YES withNavigationClass:[UINavigationController class] completion:nil];
 
-    // 重写了系统的push方法
+    // 重写了系统的modal方法
     ThreeViewController *three = [[ThreeViewController alloc] init];
     [DCURLRouter presentViewController:three animated:YES completion:nil];
  ```

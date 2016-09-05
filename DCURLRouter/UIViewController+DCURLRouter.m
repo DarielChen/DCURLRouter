@@ -84,6 +84,10 @@ static char URLparams;
             NSDictionary *dict = (NSDictionary *)config;
             if([dict.allKeys containsObject:home]){
                 class =  NSClassFromString([dict objectForKey:home]); // 根据key拿到对应的控制器名称
+                if (class == nil) { // 兼容swift,字符串转类名的时候前面加上命名空间
+                    NSString *spaceName = [NSBundle mainBundle].infoDictionary[@"CFBundleExecutable"];
+                    class =  NSClassFromString([NSString stringWithFormat:@"%@.%@",spaceName,[dict objectForKey:home]]);
+                }
             }
         }
         if(class !=nil){
