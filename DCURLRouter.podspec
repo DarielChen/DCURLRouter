@@ -37,7 +37,7 @@ Pod::Spec.new do |s|
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
 
-  s.license      = "MIT (example)"
+  s.license      = "MIT"
   # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
 
 
@@ -89,8 +89,8 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "DCURLRouter/DCURLRouter", "DCURLRouter/DCURLRouter/**/*.{h,m}"
-  s.exclude_files = "DCURLRouter/DCURLRouter/ExcludeDCURLRouter.plist"
+  s.source_files  = "DCURLRouter/*{h,m}“
+  s.exclude_files = "DCURLRouter/DCURLRouter.plist"
 
   # s.public_header_files = "Classes/**/*.h"
 
