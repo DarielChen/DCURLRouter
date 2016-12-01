@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DCURLRouter"
-  s.version      = “0.8”
+  s.version      = "0.8"
   s.summary      = "Use custom URL to change ViewController."
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = Use custom URL to push and modal viewController. you can pop or dismiss several controller at the same time.you can modal a controller with a Navigation Controller…
+  s.description  = "Use custom URL to push and modal viewController. you can pop or dismiss several controller at the same time.you can modal a controller with a Navigation Controller…"
 
   s.homepage     = "https://github.com/DarielChen/DCURLRouter"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -51,7 +51,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { “DarielChen” => “chendariel@gmail.com” }
+  s.author             = { "DarielChen" => "chendariel@gmail.com" }
   # Or just: s.author    = ""
   # s.authors            = { "" => "" }
   # s.social_media_url   = "http://twitter.com/"
