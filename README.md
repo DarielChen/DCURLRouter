@@ -31,7 +31,7 @@ pod 'DCURLRouter', '~> 0.81'
     [DCURLRouter loadConfigDictFromPlist:@"DCURLRouter.plist"];
  ```
 
-#### 2. push和modal的使用
+## 2. push和modal的使用
 所有的push和modal方法都可以通过DCURLRouter这个类方法来调用.这样在push和modal的时候就不需要拿到导航控制器或控制器再跳转了.也就是说,以后push和modal控制器跳转就不一定要在控制器中进行了.
 
 1.push控制器
@@ -78,7 +78,7 @@ pod 'DCURLRouter', '~> 0.81'
     [DCURLRouter presentViewController:three animated:YES completion:nil];
  ```
 
-#### 3. 后退 pop 和 dismiss
+## 3. 后退 pop 和 dismiss
 在实际开发中,好几次的界面的跳转组成了一个业务流程,整个业务流程结束后通常会要求返回最开始的界面,这就要让控制器连续后退好几次,但苹果是没有提供方法的.DCURLRouter给出了具体的实现方案.
 
 pop:
@@ -105,7 +105,7 @@ dismiss:
     /** dismiss到根层控制器 */
     + (void)dismissToRootViewControllerAnimated: (BOOL)flag completion: (void (^ __nullable)(void))completion;
 ```
-#### 4.参数的接收,以及其它方法
+## 4.参数的接收,以及其它方法
 在3中如果在自定义了URL后面拼接了参数,或者用字典传递了参数,那么在目的控制器怎么接收呢?其实参数的接收很简单.只要导入这个分类`#import "UIViewController+DCURLRouter.h"`就行了,然后就能拿到这三个参数.
 
 ```Objective-C
@@ -122,5 +122,5 @@ dismiss:
     UINavigationController *currentNavgationController = [DCURLRouter sharedDCURLRouter].currentNavigationViewController;
 
 ```
-#### 5.具体的实现原理
+## 5.具体的实现原理
 [简书](http://www.jianshu.com/p/36a43202b0cd)
