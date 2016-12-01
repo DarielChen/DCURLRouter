@@ -125,7 +125,7 @@ DCSingletonH(DCURLRouter)
  *  modal控制器,并且给modal出来的控制器添加一个导航控制器
  *
  *  @param urlString 自定义的URL,可以拼接参数
- *  @param clazz     需要添加的导航控制器 eg.[UINavigationController class]
+ *  @param classType 需要添加的导航控制器 eg.[UINavigationController class]
  */
 + (void)presentURLString:(NSString *)urlString animated:(BOOL)animated withNavigationClass:(Class)classType completion:(void (^ __nullable)(void))completion;
 
