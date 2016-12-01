@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "DCURLRouter"
-  s.version      = "0.8"
+  s.version      = "0.81”
   s.summary      = "Use custom URL to change ViewController."
 
   s.description  = "Use custom URL to push and modal viewController. you can pop or dismiss several controller at the same time.you can modal a controller with a Navigation Controller…"
