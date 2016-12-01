@@ -1,13 +1,28 @@
 # DCURLRouter
-自定义URL实现控制器之间的跳转
+
+## 介绍
+通过自定义URL实现控制器之间的跳转.
+
+主要功能:
+* 支持URL后面拼接参数;
+* 支持参数作为字典传入;
+* 支持在push的时候进行导航控制器的替换;
+* 支持在modal的时候添加导航控制器;
+* 支持一次pop和dismiss多个控制器;
 
 ---
-使用方法:
+## 使用方法:
 
-只要把`DCURLRouter`这个文件夹拖到项目中就行了,后续会支持`cocoapods`.
+### 1. 把`DCURLRouter`这个文件夹拖到项目中.
+
+### 2. 使用`cocoapods`:
+
+pod 'DCURLRouter', '~> 0.81'
+
+注意: 需要自己在项目中新建一个DCURLRouter.plist文件.
 
 ---
-#### 1.配置
+## 1.配置
 1. 创建DCURLRouter.一个plist文件,文件夹中有,只要修改下就行了,大概的对应关系如下图所示
 ![](http://upload-images.jianshu.io/upload_images/924285-3a4ba764f9860049.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 2. 加载DCURLRouter.plist文件数据
