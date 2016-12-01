@@ -33,13 +33,13 @@
     title.center = self.view.center;
     
     NSLog(@"接收的参数%@", self.params);
+    NSLog(@"age:%@", self.params[@"age"]);
+
     NSLog(@"拿到URL:%@", self.originUrl);
     NSLog(@"URL路径:%@", self.path);
     
+//    NSLog(@"%@", self.name);
     
-    NSLog(@"%@", self.name);
-    
-
     
 }
 

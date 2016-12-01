@@ -49,6 +49,7 @@
     
 //    [DCURLRouter dismissTwiceViewControllerAnimated:YES completion:nil];
     
+    [DCURLRouter pushURLString:@"http://www.baidu.com" animated:YES];
     
 //    [DCURLRouter presentURLString:@"http://www.baidu.com" animated:YES];
     

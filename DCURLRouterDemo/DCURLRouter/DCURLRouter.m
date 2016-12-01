@@ -9,6 +9,12 @@
 #import "DCURLRouter.h"
 #import "DCURLNavgation.h"
 
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
 @interface DCURLRouter()
 
 /** 存储读取的plist文件数据 */
@@ -27,7 +33,7 @@ DCSingletonM(DCURLRouter)
     if (configDict) {
         [DCURLRouter sharedDCURLRouter].configDict = configDict;
     }else {
-        NSAssert(0, @"请按照说明添加对应的plist文件");
+        DLog(@"请按照说明添加对应的plist文件");
     }
 }
 

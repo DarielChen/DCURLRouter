@@ -26,7 +26,6 @@
 - (void)addClick:(UITapGestureRecognizer *)gesture
 {
     NSString *urlStr = @"dariel://twoitem?name=dariel&userid=213213";
-    
     [DCURLRouter pushURLString:urlStr animated:YES];
 
 }

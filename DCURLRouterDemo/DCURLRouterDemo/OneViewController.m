@@ -28,8 +28,8 @@
     [self.view addSubview:title];
     title.center = self.view.center;
     
-    OneChildView *oneView = [[OneChildView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     
+    OneChildView *oneView = [[OneChildView alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
     [self.view addSubview:oneView];
 
 }
@@ -38,7 +38,7 @@
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
 
-    [DCURLRouter presentURLString:@"dariel://twoitem" animated:YES completion:nil];
+    [DCURLRouter presentURLString:@"dariel://twoitem?name=nsdn&age= 你好" animated:YES completion:nil];
 
 //    [DCURLRouter dismissViewControllerWithTimes:1 animated:YES completion:nil];
 

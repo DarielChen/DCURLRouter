@@ -8,6 +8,12 @@
 
 #import "DCURLNavgation.h"
 
+#ifdef DEBUG
+#   define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+#else
+#   define DLog(...)
+#endif
+
 @implementation DCURLNavgation
 DCSingletonM(DCURLNavgation)
 
@@ -28,7 +34,7 @@ DCSingletonM(DCURLNavgation)
 + (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated replace:(BOOL)replace
 {
     if (!viewController) {
-         NSAssert(0, @"请添加与url相匹配的控制器到plist文件中,或者协议头可能写错了!");
+        DLog(@"请添加与url相匹配的控制器到plist文件中,或者协议头可能写错了!");
     }
     else {
         if([viewController isKindOfClass:[UINavigationController class]]) {
@@ -58,7 +64,7 @@ DCSingletonM(DCURLNavgation)
 + (void)presentViewController:(UIViewController *)viewController animated: (BOOL)flag completion:(void (^ __nullable)(void))completion
 {
     if (!viewController) {
-         NSAssert(0, @"请添加与url相匹配的控制器到plist文件中,或者协议头可能写错了!");
+        DLog(@"请添加与url相匹配的控制器到plist文件中,或者协议头可能写错了!");
     }else {
         UIViewController *currentViewController = [[DCURLNavgation sharedDCURLNavgation] currentViewController];
         if (currentViewController) { // 当前控制器存在
@@ -106,11 +112,12 @@ DCSingletonM(DCURLNavgation)
             if (count > times){
                 [currentViewController.navigationController popToViewController:[currentViewController.navigationController.viewControllers objectAtIndex:count-1-times] animated:animated];
             }else { // 如果times大于控制器的数量
-                NSAssert(0, @"确定可以pop掉那么多控制器?");
+                DLog(@"确定可以pop掉那么多控制器?");
             }
         }
     }
 }
+
 + (void)popToRootViewControllerAnimated:(BOOL)animated {
     UIViewController *currentViewController = [[DCURLNavgation sharedDCURLNavgation] currentViewController];
     NSUInteger count = currentViewController.navigationController.viewControllers.count;
@@ -135,9 +142,8 @@ DCSingletonM(DCURLNavgation)
     }
     
     if (!rootVC.presentedViewController) {
-        NSAssert(0, @"确定能dismiss掉这么多控制器?");
+        DLog(@"确定能dismiss掉这么多控制器?");
     }
-    
 }
 
 

@@ -49,11 +49,17 @@ static char URLparams;
 }
 
 + (UIViewController *)initFromString:(NSString *)urlString fromConfig:(NSDictionary *)configDict{
-    return [UIViewController initFromURL:[NSURL URLWithString:urlString] withQuery:nil fromConfig:configDict];
+    
+    // 支持对中文字符的编码
+    NSString *encodeStr = [urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    return [UIViewController initFromURL:[NSURL URLWithString:encodeStr] withQuery:nil fromConfig:configDict];
 }
 
 + (UIViewController *)initFromString:(NSString *)urlString withQuery:(NSDictionary *)query fromConfig:(NSDictionary *)configDict{
-    return [UIViewController initFromURL:[NSURL URLWithString:urlString] withQuery:query fromConfig:configDict] ;
+    
+    // 支持对中文字符的编码
+    NSString *encodeStr = [urlString stringByAddingPercentEncodingWithAllowedCharacters:[NSCharacterSet URLQueryAllowedCharacterSet]];
+    return [UIViewController initFromURL:[NSURL URLWithString:encodeStr] withQuery:query fromConfig:configDict] ;
 }
 
 - (void)open:(NSURL *)url withQuery:(NSDictionary *)query{
@@ -112,6 +118,7 @@ static char URLparams;
     if (NSNotFound != [url.absoluteString rangeOfString:@"?"].location) {
         NSString *paramString = [url.absoluteString substringFromIndex:
                                  ([url.absoluteString rangeOfString:@"?"].location + 1)];
+        
         NSCharacterSet* delimiterSet = [NSCharacterSet characterSetWithCharactersInString:@"&"];
         NSScanner* scanner = [[NSScanner alloc] initWithString:paramString];
         while (![scanner isAtEnd]) {
@@ -126,6 +133,7 @@ static char URLparams;
             }
         }
     }
+    
     return [NSDictionary dictionaryWithDictionary:pairs];
 }
 
