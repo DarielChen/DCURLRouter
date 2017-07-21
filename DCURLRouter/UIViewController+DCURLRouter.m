@@ -13,6 +13,8 @@ static char URLoriginUrl;
 static char URLpath;
 static char URLparams;
 
+static char dataCallBack;
+
 @implementation UIViewController (DCURLRouter)
 
 
@@ -26,6 +28,16 @@ static char URLparams;
 - (NSURL *)originUrl {
     // 获取分类的属性值
     return objc_getAssociatedObject(self, &URLoriginUrl);
+}
+
+- (void)setValueBlock:(void (^)(id _Nonnull))valueBlock {
+    objc_setAssociatedObject(self, &dataCallBack,
+                             valueBlock,
+                             OBJC_ASSOCIATION_RETAIN_NONATOMIC);
+}
+
+- (void (^)(id _Nonnull))valueBlock {
+    return objc_getAssociatedObject(self, &dataCallBack);
 }
 
 - (NSString *)path {

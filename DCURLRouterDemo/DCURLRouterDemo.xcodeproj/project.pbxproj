@@ -10,15 +10,15 @@
 		15143CAB1D66AB24006BD05D /* OneChildView.m in Sources */ = {isa = PBXBuildFile; fileRef = 15143CAA1D66AB24006BD05D /* OneChildView.m */; };
 		1526ABF01D6B316D0083C658 /* XibViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1526ABEE1D6B316D0083C658 /* XibViewController.m */; };
 		1526ABF11D6B316D0083C658 /* XibViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1526ABEF1D6B316D0083C658 /* XibViewController.xib */; };
+		1550809A1F21F4D4007078E5 /* DCURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = 155080941F21F4D4007078E5 /* DCURLNavgation.m */; };
+		1550809B1F21F4D4007078E5 /* DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 155080961F21F4D4007078E5 /* DCURLRouter.m */; };
+		1550809C1F21F4D4007078E5 /* DCURLRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 155080971F21F4D4007078E5 /* DCURLRouter.plist */; };
+		1550809D1F21F4D4007078E5 /* UIViewController+DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 155080991F21F4D4007078E5 /* UIViewController+DCURLRouter.m */; };
 		15B071681D64414C00D9D571 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071671D64414B00D9D571 /* main.m */; };
 		15B0716B1D64414C00D9D571 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0716A1D64414C00D9D571 /* AppDelegate.m */; };
 		15B071711D64414C00D9D571 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B0716F1D64414C00D9D571 /* Main.storyboard */; };
 		15B071731D64414C00D9D571 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B071721D64414C00D9D571 /* Assets.xcassets */; };
 		15B071761D64414C00D9D571 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15B071741D64414C00D9D571 /* LaunchScreen.storyboard */; };
-		15B0717F1D6441CD00D9D571 /* DCURLRouter.plist in Resources */ = {isa = PBXBuildFile; fileRef = 15B0717E1D6441CD00D9D571 /* DCURLRouter.plist */; };
-		15B071861D6442DB00D9D571 /* DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071851D6442DB00D9D571 /* DCURLRouter.m */; };
-		15B071891D64432F00D9D571 /* DCURLNavgation.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071881D64432F00D9D571 /* DCURLNavgation.m */; };
-		15B0718C1D64437B00D9D571 /* UIViewController+DCURLRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0718B1D64437B00D9D571 /* UIViewController+DCURLRouter.m */; };
 		15B0718F1D6468AF00D9D571 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B0718E1D6468AF00D9D571 /* OneViewController.m */; };
 		15B071921D6468C300D9D571 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071911D6468C300D9D571 /* TwoViewController.m */; };
 		15B071951D646CAB00D9D571 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B071941D646CAB00D9D571 /* ThreeViewController.m */; };
@@ -33,6 +33,14 @@
 		1526ABED1D6B316D0083C658 /* XibViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XibViewController.h; sourceTree = "<group>"; };
 		1526ABEE1D6B316D0083C658 /* XibViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XibViewController.m; sourceTree = "<group>"; };
 		1526ABEF1D6B316D0083C658 /* XibViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XibViewController.xib; sourceTree = "<group>"; };
+		155080921F21F4D4007078E5 /* DCSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCSingleton.h; sourceTree = "<group>"; };
+		155080931F21F4D4007078E5 /* DCURLNavgation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLNavgation.h; sourceTree = "<group>"; };
+		155080941F21F4D4007078E5 /* DCURLNavgation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLNavgation.m; sourceTree = "<group>"; };
+		155080951F21F4D4007078E5 /* DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLRouter.h; sourceTree = "<group>"; };
+		155080961F21F4D4007078E5 /* DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLRouter.m; sourceTree = "<group>"; };
+		155080971F21F4D4007078E5 /* DCURLRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DCURLRouter.plist; sourceTree = "<group>"; };
+		155080981F21F4D4007078E5 /* UIViewController+DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCURLRouter.h"; sourceTree = "<group>"; };
+		155080991F21F4D4007078E5 /* UIViewController+DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCURLRouter.m"; sourceTree = "<group>"; };
 		15B071631D64414B00D9D571 /* DCURLRouterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DCURLRouterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B071671D64414B00D9D571 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		15B071691D64414C00D9D571 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,14 +49,6 @@
 		15B071721D64414C00D9D571 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15B071751D64414C00D9D571 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15B071771D64414C00D9D571 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		15B0717E1D6441CD00D9D571 /* DCURLRouter.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = DCURLRouter.plist; sourceTree = "<group>"; };
-		15B071831D64429E00D9D571 /* DCSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DCSingleton.h; sourceTree = "<group>"; };
-		15B071841D6442DB00D9D571 /* DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLRouter.h; sourceTree = "<group>"; };
-		15B071851D6442DB00D9D571 /* DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLRouter.m; sourceTree = "<group>"; };
-		15B071871D64432F00D9D571 /* DCURLNavgation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCURLNavgation.h; sourceTree = "<group>"; };
-		15B071881D64432F00D9D571 /* DCURLNavgation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCURLNavgation.m; sourceTree = "<group>"; };
-		15B0718A1D64437B00D9D571 /* UIViewController+DCURLRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+DCURLRouter.h"; sourceTree = "<group>"; };
-		15B0718B1D64437B00D9D571 /* UIViewController+DCURLRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+DCURLRouter.m"; sourceTree = "<group>"; };
 		15B0718D1D6468AF00D9D571 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
 		15B0718E1D6468AF00D9D571 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
 		15B071901D6468C300D9D571 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
@@ -74,10 +74,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		155080911F21F4D4007078E5 /* DCURLRouter */ = {
+			isa = PBXGroup;
+			children = (
+				155080921F21F4D4007078E5 /* DCSingleton.h */,
+				155080931F21F4D4007078E5 /* DCURLNavgation.h */,
+				155080941F21F4D4007078E5 /* DCURLNavgation.m */,
+				155080951F21F4D4007078E5 /* DCURLRouter.h */,
+				155080961F21F4D4007078E5 /* DCURLRouter.m */,
+				155080971F21F4D4007078E5 /* DCURLRouter.plist */,
+				155080981F21F4D4007078E5 /* UIViewController+DCURLRouter.h */,
+				155080991F21F4D4007078E5 /* UIViewController+DCURLRouter.m */,
+			);
+			name = DCURLRouter;
+			path = ../DCURLRouter;
+			sourceTree = "<group>";
+		};
 		15B0715A1D64414B00D9D571 = {
 			isa = PBXGroup;
 			children = (
-				15B0717D1D64418C00D9D571 /* DCURLRouter */,
+				155080911F21F4D4007078E5 /* DCURLRouter */,
 				15B071651D64414B00D9D571 /* DCURLRouterDemo */,
 				15B071641D64414B00D9D571 /* Products */,
 			);
@@ -128,21 +144,6 @@
 				15B071671D64414B00D9D571 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		15B0717D1D64418C00D9D571 /* DCURLRouter */ = {
-			isa = PBXGroup;
-			children = (
-				15B071841D6442DB00D9D571 /* DCURLRouter.h */,
-				15B071851D6442DB00D9D571 /* DCURLRouter.m */,
-				15B071871D64432F00D9D571 /* DCURLNavgation.h */,
-				15B071881D64432F00D9D571 /* DCURLNavgation.m */,
-				15B0718A1D64437B00D9D571 /* UIViewController+DCURLRouter.h */,
-				15B0718B1D64437B00D9D571 /* UIViewController+DCURLRouter.m */,
-				15B071831D64429E00D9D571 /* DCSingleton.h */,
-				15B0717E1D6441CD00D9D571 /* DCURLRouter.plist */,
-			);
-			path = DCURLRouter;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,9 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1526ABF11D6B316D0083C658 /* XibViewController.xib in Resources */,
+				1550809C1F21F4D4007078E5 /* DCURLRouter.plist in Resources */,
 				15B071761D64414C00D9D571 /* LaunchScreen.storyboard in Resources */,
 				15B071731D64414C00D9D571 /* Assets.xcassets in Resources */,
-				15B0717F1D6441CD00D9D571 /* DCURLRouter.plist in Resources */,
 				15B071711D64414C00D9D571 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -218,17 +219,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B071921D6468C300D9D571 /* TwoViewController.m in Sources */,
-				15B071891D64432F00D9D571 /* DCURLNavgation.m in Sources */,
 				1526ABF01D6B316D0083C658 /* XibViewController.m in Sources */,
+				1550809D1F21F4D4007078E5 /* UIViewController+DCURLRouter.m in Sources */,
 				15E021971D654A2E00B7A6BD /* WebViewController.m in Sources */,
-				15B0718C1D64437B00D9D571 /* UIViewController+DCURLRouter.m in Sources */,
+				1550809B1F21F4D4007078E5 /* DCURLRouter.m in Sources */,
+				1550809A1F21F4D4007078E5 /* DCURLNavgation.m in Sources */,
 				15B071981D646CC000D9D571 /* FourViewController.m in Sources */,
 				15B0719B1D646CE600D9D571 /* FiveViewController.m in Sources */,
 				15143CAB1D66AB24006BD05D /* OneChildView.m in Sources */,
 				15B0716B1D64414C00D9D571 /* AppDelegate.m in Sources */,
 				15B0718F1D6468AF00D9D571 /* OneViewController.m in Sources */,
 				15B071681D64414C00D9D571 /* main.m in Sources */,
-				15B071861D6442DB00D9D571 /* DCURLRouter.m in Sources */,
 				15B071951D646CAB00D9D571 /* ThreeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

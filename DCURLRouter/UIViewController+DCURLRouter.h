@@ -20,6 +20,9 @@ NS_ASSUME_NONNULL_BEGIN
 /** 跳转后控制器能拿到的参数 */
 @property(nonatomic,strong) NSDictionary *params;
 
+/** 回调block */
+@property (nonatomic, strong) void(^valueBlock)(id value);
+
 // 根据参数创建控制器
 + (UIViewController *)initFromString:(NSString *)urlString fromConfig:(NSDictionary *)configDict;
 // 根据参数创建控制器

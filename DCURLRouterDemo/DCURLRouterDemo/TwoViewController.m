@@ -48,7 +48,7 @@
 
 //    [DCURLRouter presentURLString:@"dariel://threeitem" animated:YES completion:nil];
     
-    self.valueBlock(@"随便什么类型");
+    self.valueBlock(@"any Type");
     
 }
 
