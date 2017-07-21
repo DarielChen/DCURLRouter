@@ -37,12 +37,20 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     
-
-    [DCURLRouter presentURLString:@"dariel://twoitem?name=nsdn&age= 你好" animated:YES completion:nil];
-
+    
+//    [DCURLRouter presentURLString:@"dariel://twoitem?name=nsdn&age= 你好" animated:YES completion:nil];
+    
+    [DCURLRouter pushURLString:@"dariel://twoitem?name=nsdn&age= 18" animated:YES];
+    
+    NSLog(@"%@", [DCURLRouter sharedDCURLRouter].currentViewController);
+    
+    UIViewController *twoVc = [DCURLRouter sharedDCURLRouter].currentViewController;
+    twoVc.valueBlock = ^(id value) {
+        NSLog(@"%@", value);
+    };
+    
 //    [DCURLRouter dismissViewControllerWithTimes:1 animated:YES completion:nil];
 
-    
 }
 
 

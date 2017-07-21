@@ -46,9 +46,9 @@
 
 - (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
 
+//    [DCURLRouter presentURLString:@"dariel://threeitem" animated:YES completion:nil];
     
-    [DCURLRouter presentURLString:@"dariel://threeitem" animated:YES completion:nil];
-
+    self.valueBlock(@"随便什么类型");
     
 }
 
